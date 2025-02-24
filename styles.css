@@ -134,7 +134,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 1.5rem;
-    margin: 9rem;
+    margin: 9rem 6rem 3rem 6rem;
 }
 
 .foot__logo {
@@ -143,7 +143,7 @@ body {
 
 .foot__list {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .list__link{
