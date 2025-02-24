@@ -175,3 +175,40 @@ body {
     font-size: 0.9rem;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .container{
+        display: block;
+        background-image: none;
+    }
+
+    .container__image {
+        width: 50vw;
+    }
+
+    .container__box {
+        margin: 2rem 2rem;
+    }
+
+    .secondary {
+        margin: 0;
+        text-align: center;
+    }
+
+    .secondary__image {
+        width: 50vw;
+    }
+
+    .devices__list {
+        display: block;
+    }
+
+    .foot__logo {
+        width: 30%;
+    }
+
+    .foot__list {
+        display: block;
+        text-align: center;
+    }
+}
